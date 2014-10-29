@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fortune Teller by Oscar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/paper/bootstrap.min.css">
+<!-- Adds Font Awesome -->
+<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+<div class="caption" align="center">
+      <h3> Lets see the future: <%= @sign %> </h3>
+      <img class="img-rounded" src="/crystal-ball-animated.gif">
+      <h5>Sign: <%= @sign %></h5>
+      <h5>Creature: <%= @creature %></h5>
+      <h5>Fortune: <%= @fortune %></h5>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
